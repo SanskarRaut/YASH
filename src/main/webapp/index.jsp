@@ -13,7 +13,7 @@ int n = 10, firstTerm = 0, secondTerm = 1;
     out.println("Fibonacci Series till " + n + " terms:");
 
     for (int i = 1; i <= n; ++i) {
-         .out.print(firstTerm + ", ");
+         out.print(firstTerm + ", ");
 
       int nextTerm = firstTerm + secondTerm;
       firstTerm = secondTerm;
